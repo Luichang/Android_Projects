@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fridge Thing</string>
+    <string name="container">My Fridge</string>
+    <string name="shoppingList">Shopping List</string>
+    <string name="recipes">My Recipes</string>
+    <string name="logo">Fridged</string>
+</resources>
