@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Easy001</string>
+    <string name="user_name">Your Name</string>
+    <string name="user_age">Your Age</string>
+    <string name="user_username">Your Username</string>
+    <string name="submit">Submit</string>
+</resources>
