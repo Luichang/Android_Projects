@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         final Button submit = findViewById(R.id.btnSubmit);
         final EditText userName = findViewById(R.id.editName);
         final EditText userAge = findViewById(R.id.editAge);
-        final EditText userUsername = findViewById(R.id.editUserName);
+        final EditText userUsername = findViewById(R.id.editUsername);
         final TextView result = findViewById(R.id.viewResult);
 
         submit.setOnClickListener(new View.OnClickListener() {
