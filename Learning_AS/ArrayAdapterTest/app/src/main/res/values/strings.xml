@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ArrayAdapterTest</string>
+    <string name="btnAdd">Add</string>
+    <string name="txtAddElement">Add Element</string>
+    <string name="btnSwitch">Advanceder Test</string>
+    <string name="btnReturn">Return</string>
+    <string name="txtMovieName">Movie Name</string>
+    <string name="txtMovieDate">Release Date</string>
+    <string name="txtMovieViews">Viewed</string>
+</resources>
