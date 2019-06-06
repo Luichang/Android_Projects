@@ -32,14 +32,15 @@ public class MainActivity extends AppCompatActivity {
 
         // ArrayAdapter takes an Array (Maybe also other Array like structures - TO TEST) and
         // inserts the Values into a premade layout file
-        final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, R.layout.populate_string_list, R.id.textView, displayList);
+        final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, R.layout.populate_string_list, R.id.tvString, displayList);
         textList.setAdapter(arrayAdapter);
 
         btnAdd = findViewById(R.id.btnSave);
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                displayList.add(tvAdd.getText().toString());
+                String insert = tvAdd.getText().toString();
+                displayList.add(insert);
                 tvAdd.setText("");
 
                 // notifyDataSetChanged tells the ListView that the Data within it has changed
